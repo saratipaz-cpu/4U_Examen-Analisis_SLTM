@@ -1,0 +1,59 @@
+/*Configuraciones generales*/
+body{
+    background-color: rgb(2, 16, 54);
+    font-family: Verdana;
+    display: absolute;
+}
+
+h1{
+    color: rgb(226, 227, 238);
+    text-align: center;
+    background-color: rgb(8, 21, 131);
+}
+
+.si-disponible h2{
+    background-color: rgb(122, 122, 230);
+    width: 280px;
+    color: rgb(219, 219, 255);
+}
+
+.no-disponibles h2{
+    background-color: rgb(70, 144, 194);
+    width: 300px;
+    color: rgb(219, 219, 255);
+}
+
+.libro{
+    background-color: rgb(198, 229, 243);
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    gap:30px;
+    margin: 10px 0px 10px;
+    
+}
+
+.libro:hover{
+    transform: scale(1.05);
+}
+
+.contenedor-libro{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    background-color: rgb(9, 67, 153);
+}
+
+.disponible{
+    color: rgb(23, 143, 23);
+    text-decoration: underline;
+}
+
+.no-disponible{
+    color: rgb(180, 30, 30);
+    text-decoration: underline;
+}
+
+.contenedor-libro p b{
+    color: rgb(9, 24, 110);
+}
